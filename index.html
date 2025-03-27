@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test d'Orientation Scolaire</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="image.png" alt="" srcset="">
+    <!-- <h1><img src="image.png" alt="" srcset=""> Parcours D'Étudiants</h1> -->
+    <h2>Trouvez votre voie</h2>
+
+    <p id="progress">Question 1 / 20</p>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <div id="questionContainer"></div>
+
+    <div>
+        <button id="prevButton" onclick="prevQuestion()" style="display:none;">Précédent</button>
+        <button id="nextButton" onclick="nextQuestion()" disabled>Suivant</button>
+    </div>
+
+    <div id="result" style="display:none;">
+        <h2>Votre profil :</h2>
+        <p id="profileText"></p>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
